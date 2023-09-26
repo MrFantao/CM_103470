@@ -13,6 +13,7 @@
     <string name="numberCardinal">#</string>
     <string name="numberBack">Back</string>
     <string name="numberCall">Call</string>
+    <string name="phone">&#128222;</string>
 
 
 </resources>

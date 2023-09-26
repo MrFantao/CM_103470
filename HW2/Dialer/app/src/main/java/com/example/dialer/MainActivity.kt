@@ -77,11 +77,11 @@ fun DialerScreenAndKeyboard(modifier: Modifier = Modifier) {
                 Button(onClick = { phoneNumber += "1" }) {
                     Text(stringResource(R.string.number1))
                 }
-                Button(onClick = { phoneNumber += "2" }) {
-                    Text(stringResource(R.string.number2))
+                Button(onClick = { phoneNumber += "4" }) {
+                    Text(stringResource(R.string.number4))
                 }
-                Button(onClick = { phoneNumber += "3" }) {
-                    Text(stringResource(R.string.number3))
+                Button(onClick = { phoneNumber += "9" }) {
+                    Text(stringResource(R.string.number9))
                 }
                 Button(onClick = { phoneNumber += "#" }) {
                     Text(stringResource(R.string.numberCardinal))
@@ -91,28 +91,31 @@ fun DialerScreenAndKeyboard(modifier: Modifier = Modifier) {
             Column(
                 //verticalArrangement = Arrangement.Bottom
             ) {
-                Button(onClick = { phoneNumber += "4" }) {
-                    Text(stringResource(R.string.number4))
+                Button(onClick = { phoneNumber += "2" }) {
+                    Text(stringResource(R.string.number2))
                 }
                 Button(onClick = { phoneNumber += "5" }) {
                     Text(stringResource(R.string.number5))
                 }
-                Button(onClick = { phoneNumber += "6" }) {
-                    Text(stringResource(R.string.number6))
+                Button(onClick = { phoneNumber += "8" }) {
+                    Text(stringResource(R.string.number8))
+                }
+                Button(onClick = { phoneNumber += "0" }) {
+                    Text(stringResource(R.string.number0))
                 }
                 Button(onClick = { /*TODO*/ }) {
-                    Text(stringResource(R.string.numberCall))
+                    Text(stringResource(R.string.phone))
                 }
             }
 
             Column(
                 //verticalArrangement = Arrangement.Bottom
             ) {
-                Button(onClick = { phoneNumber += "7" }) {
-                    Text(stringResource(R.string.number7))
+                Button(onClick = { phoneNumber += "3" }) {
+                    Text(stringResource(R.string.number3))
                 }
-                Button(onClick = { phoneNumber += "8" }) {
-                    Text(stringResource(R.string.number8))
+                Button(onClick = { phoneNumber += "6" }) {
+                    Text(stringResource(R.string.number6))
                 }
                 Button(onClick = { phoneNumber += "9" }) {
                     Text(stringResource(R.string.number9))
